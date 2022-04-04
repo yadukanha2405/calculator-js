@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+
+#container {
+  max-width: 400px;
+  margin: 10vh auto 0 auto;
+}
+
+#display {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 10px;
+  font-size: 25px;
+}
+
+.buttons {
+  display: grid;
+  border-left: 1px solid grey;
+  border-bottom: 1px solid grey;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.button {
+  line-height: 100px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#equel {
+  background-color: lightblue;
+}
+
+.button:hover {
+  background-color: mediumslateblue;
+  transition: 0.5s ease-in-out;
+}
